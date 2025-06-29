@@ -6,8 +6,7 @@ https://github.com/facebookresearch/Detectron
 
 
 ## Description
-This project tries to build an assistant for visually impaired persons using Raspberry Pi board along with some sensors (ultrasonic sensors, camera).
-
+An assistive system for visually impaired individuals using a Raspberry Pi, ultrasonic sensors, and a camera to enable obstacle detection and text recognition.
 
 ### Main Features
 **Avoid obstacles:** ultrasonic sensors are used to detect obstacles and warn the user through earphones.
