@@ -1,9 +1,8 @@
-# Blind Assistant
+# LumosPi - An assistant for blind persons
 ![logo](./logo.png)
 
 ### TODO:
 https://github.com/facebookresearch/Detectron
-
 
 ## Description
 An assistive system for visually impaired individuals using a Raspberry Pi, ultrasonic sensors, and a camera to enable obstacle detection and text recognition.
@@ -13,12 +12,10 @@ An assistive system for visually impaired individuals using a Raspberry Pi, ultr
 
 **Read documents:** we take pictures of documents and we use OCR to extract text from those images and convert it to speech.
 
-
 ## Dependencies
 - [python3](https://www.python.org/)  
 - [tesseract-ocr](https://github.com/tesseract-ocr/tesseract)  
 - [opencv](https://opencv.org/)
-
 
 ## Usage
 To use the project first insure that you have all dependencies installed then run the main python script.
@@ -46,11 +43,6 @@ Or you can build your own image from dockerfile:
 
     # run the container
     $ docker run blind-assistant
-
-
-## Authors
-- **[Zied Guesmi](https://github.com/Zied-Guesmi)**
-
 
 ## License
 This project is licensed under the GPLv2 License - see the [LICENSE](https://github.com/Zied-Guesmi/blind-assistant/blob/master/LICENSE) file for details.
